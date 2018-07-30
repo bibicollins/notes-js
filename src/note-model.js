@@ -1,13 +1,12 @@
 (function(exports) {
   function Note() {
-    this.text = 'My first note, woo'
+    this.text = 'bababa'
   };
+  Note.prototype.addText = function(text) {
+    this.text = text
+  }
   Note.prototype.returnText = function() {
     return this.text;
-  }
-
-  Note.prototype.addText = function(text) {
-    return this.text = text
   }
   exports.Note = Note;
 })(this)

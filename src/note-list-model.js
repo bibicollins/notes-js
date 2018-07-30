@@ -4,10 +4,10 @@
   };
 
   List.prototype.addNoteText = function(text) {
-     note = new Note
+     note = new Note();
      var texts
      texts = note.addText(text)
-     this.lists.push(texts);
+     this.lists.push(text);
   }
   List.prototype.ShowNotes = function() {
      return this.lists;

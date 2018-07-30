@@ -7,16 +7,16 @@
 
   function testaddNoteText() {
     var list = new List();
-    var note = new Note();
-    list.addNoteText("Favourite drink: seltzer")
 
-    assert.isTrue(list.lists[0] === "Favourite drink: seltzer")
+    list.addNoteText("Favourite drink: seltzer")
+    assert.isTrue(list.lists.length === 1);
   }
 
   function testShowNotes() {
     var list = new List();
     list.addNoteText("Favourite drink: seltzer")
     assert.isTrue(list.ShowNotes().includes("Favourite drink: seltzer"))
+
    }
 
 

@@ -1,0 +1,26 @@
+{
+  "name": "help",
+  "version": "1.0.0",
+  "main": "assert.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bibicollins/notes-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bibicollins/notes-js/issues"
+  },
+  "homepage": "https://github.com/bibicollins/notes-js#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
+  "description": ""
+}

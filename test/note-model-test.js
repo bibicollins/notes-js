@@ -2,20 +2,17 @@
   function testNoteDefaultText() {
     var note = new Note();
 
-    assert.isTrue(note.text === "My first note, woo");
+    assert.isTrue(note.text === 'bababa');
   }
   function testReturnText() {
     var note = new Note();
-
-    assert.isTrue(note.returnText() === "My first note, woo")
+    note.addText('hi');
+    assert.isTrue(note.text === 'hi');
   }
-    // if (note.returnText() !== "My first note, woo") {
-    //   throw new Error("Your note is not work");
-    //   }
 
 function testAddText() {
   var note = new Note();
-  assert.isTrue(note.AddText("Hi Jeff") === "Hi Jeff")
+  assert.isTrue(note.AddText("Hi Jeff") === "Hi Jeff");
 
 }
 
