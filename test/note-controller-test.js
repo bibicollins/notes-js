@@ -19,3 +19,19 @@ function doubleList() {}
   testInstantiateController();
   testNoteControllerAddNote();
 })(this);
+
+
+
+// var mockElement = {}
+// var controller = new NotesController(mockNoteList, mockElement)
+// controller.update()
+// expect(element.innerHTML).toEqual('<div></div>')
+
+// NotesController.prototype.update = function(element) {
+// this.element = element;
+// this.notelist = noteList;
+// this.noteListView(this.noteList)
+// }
+
+
+// Can add properties to empty objects in Javascript.
